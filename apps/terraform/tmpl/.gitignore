@@ -1,0 +1,9 @@
+# JetBrains
+.idea
+*.iml
+
+# Terraform extensions
+.terraform
+terraform.tfstate
+*.tfstate*
+terraform.tfvars
