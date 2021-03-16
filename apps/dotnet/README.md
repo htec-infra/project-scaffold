@@ -16,4 +16,8 @@ Scaffolding for new dotNet projects
 ### Prerequisites
 
 - [pre-commit](https://pre-commit.com/#install)
+- [skaffold](https://skaffold.dev/docs/install/)
 
+### Installation
+
+### Usage
