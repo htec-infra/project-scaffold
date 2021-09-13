@@ -1,15 +1,15 @@
 # Terraform module generator
 
-Scaffolding for new dotNet projects
+Scaffolding for new dotNet-core projects
 
 ### Features
-- infra - Boostrap scripts and infrastructure-related definitions 
-  (Dockerfile,k8s manifests, helm charts, etc.)
-- src - Main projects (the product code)
-- tests - Test projects
 - docs - Documentation stuff, markdown files, help files etc.
+- infra - Boostrap scripts and infrastructure-related configuration templates 
+  (Dockerfile,k8s manifests, helm charts, etc.)
+- libs - All third-patry dependencies that can't be pulled from NuGet repo, place here
+- src - Main projects (the product code)
+- tests - Project's test suites
 - samples (optional) - Sample projects
-- lib - Things that can NEVER exist in a nuget package
 - artifacts - Build outputs go here. Doing a build.cmd/build.sh generates artifacts here (nupkgs, dlls, pdbs, etc.)
 - packages - NuGet packages
 
@@ -21,3 +21,8 @@ Scaffolding for new dotNet projects
 ### Installation
 
 ### Usage
+
+
+### Credits
+
+    https://github.com/dotnet/aspnetcore
