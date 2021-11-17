@@ -12,7 +12,7 @@ Scaffolding for new Terraform module projects.
 
 - `README.md` with an auto-generated section containing Terraform providers, variables and outputs documentation
 
-- `test` directory with an example test based on test framework selection
+- `test` directory with an example test (currently using `terragrunt`)
 
 - `example` directory with module usage tf files
 
