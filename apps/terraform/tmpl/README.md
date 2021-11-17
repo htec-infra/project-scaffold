@@ -63,4 +63,3 @@ go test
 This project is authored by following people:
 
 -
-
