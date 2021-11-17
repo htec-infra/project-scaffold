@@ -27,6 +27,7 @@ repos:
       - id: terraform_tfsec
       - id: terraform_docs
         args:
+          - --args=--recursive=false
           - --hook-config=--create-file-if-not-exist=true
           - --hook-config=--add-to-exiting-file=true
       - id: checkov
